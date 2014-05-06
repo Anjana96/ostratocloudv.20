@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1122314840\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 1 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ManageSLAs">ManageSLAs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="AWSCloudCredential">AWSCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="AzureCloudCredential">AzureCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="CancelManageGroups">CancelManageGroups</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="CancelManageProjects">CancelManageProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="CancelManageUsers">CancelManageUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="CancelPasswordChange">CancelPasswordChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="CancelRole">CancelRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ChangeDefaultGroup">ChangeDefaultGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditDetails">EditDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditGroup">EditGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditHomePage">EditHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditProject">EditProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditUsers">EditUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EditandSaveCredential">EditandSaveCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="EucalyptusCloudCredential">EucalyptusCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="IngestCloudServices">IngestCloudServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="InvalidLogin">InvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ManageCloudCredential">ManageCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ManageMarketplace">ManageMarketplace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ManageSecurity">ManageSecurity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="OpenstackCloudCredential">OpenstackCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RackspaceCloudCredential">RackspaceCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshCredential">RefreshCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshGroup">RefreshGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshIngestCloudServices">RefreshIngestCloudServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshManageProjects">RefreshManageProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshRole">RefreshRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="RefreshUsers">RefreshUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="Settings">Settings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="VMWareCloudCredential">VMWareCloudCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ValidCredentialLogin">ValidCredentialLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ViewCredential">ViewCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ViewDetails">ViewDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ViewGroupDetails">ViewGroupDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ViewProjectDetails">ViewProjectDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testautomation.suite2" hash-for-method="ViewUserDetails">ViewUserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testautomation.suite2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageSLAs">
+                  </a> <!-- ManageSLAs -->
+                  <span class="method-name">ManageSLAs</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;confirm-modal&apos;]/div[1]&quot;}
+Command duration or timeout: 160.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;THIMWS022&apos;, ip: &apos;192.168.10.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 6e9565bb-528a-442f-85df-fb400919c53b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at testautomation.suite2.ManageSLAs(suite2.java:1226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;confirm-modal&apos;]/div[1]&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;THIMWS022&apos;, ip: &apos;192.168.10.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8775648292275286364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8775648292275286364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testautomation.suite2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AWSCloudCredential">
+                  </a> <!-- AWSCloudCredential -->
+                  <span class="method-name">AWSCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AzureCloudCredential">
+                  </a> <!-- AzureCloudCredential -->
+                  <span class="method-name">AzureCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelManageGroups">
+                  </a> <!-- CancelManageGroups -->
+                  <span class="method-name">CancelManageGroups</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelManageProjects">
+                  </a> <!-- CancelManageProjects -->
+                  <span class="method-name">CancelManageProjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelManageUsers">
+                  </a> <!-- CancelManageUsers -->
+                  <span class="method-name">CancelManageUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelPasswordChange">
+                  </a> <!-- CancelPasswordChange -->
+                  <span class="method-name">CancelPasswordChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelRole">
+                  </a> <!-- CancelRole -->
+                  <span class="method-name">CancelRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangeDefaultGroup">
+                  </a> <!-- ChangeDefaultGroup -->
+                  <span class="method-name">ChangeDefaultGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditDetails">
+                  </a> <!-- EditDetails -->
+                  <span class="method-name">EditDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditGroup">
+                  </a> <!-- EditGroup -->
+                  <span class="method-name">EditGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditHomePage">
+                  </a> <!-- EditHomePage -->
+                  <span class="method-name">EditHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProject">
+                  </a> <!-- EditProject -->
+                  <span class="method-name">EditProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditUsers">
+                  </a> <!-- EditUsers -->
+                  <span class="method-name">EditUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditandSaveCredential">
+                  </a> <!-- EditandSaveCredential -->
+                  <span class="method-name">EditandSaveCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EucalyptusCloudCredential">
+                  </a> <!-- EucalyptusCloudCredential -->
+                  <span class="method-name">EucalyptusCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IngestCloudServices">
+                  </a> <!-- IngestCloudServices -->
+                  <span class="method-name">IngestCloudServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLogin">
+                  </a> <!-- InvalidLogin -->
+                  <span class="method-name">InvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageCloudCredential">
+                  </a> <!-- ManageCloudCredential -->
+                  <span class="method-name">ManageCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageMarketplace">
+                  </a> <!-- ManageMarketplace -->
+                  <span class="method-name">ManageMarketplace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageSecurity">
+                  </a> <!-- ManageSecurity -->
+                  <span class="method-name">ManageSecurity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenstackCloudCredential">
+                  </a> <!-- OpenstackCloudCredential -->
+                  <span class="method-name">OpenstackCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RackspaceCloudCredential">
+                  </a> <!-- RackspaceCloudCredential -->
+                  <span class="method-name">RackspaceCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshCredential">
+                  </a> <!-- RefreshCredential -->
+                  <span class="method-name">RefreshCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshGroup">
+                  </a> <!-- RefreshGroup -->
+                  <span class="method-name">RefreshGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshIngestCloudServices">
+                  </a> <!-- RefreshIngestCloudServices -->
+                  <span class="method-name">RefreshIngestCloudServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshManageProjects">
+                  </a> <!-- RefreshManageProjects -->
+                  <span class="method-name">RefreshManageProjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshRole">
+                  </a> <!-- RefreshRole -->
+                  <span class="method-name">RefreshRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshUsers">
+                  </a> <!-- RefreshUsers -->
+                  <span class="method-name">RefreshUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Settings">
+                  </a> <!-- Settings -->
+                  <span class="method-name">Settings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VMWareCloudCredential">
+                  </a> <!-- VMWareCloudCredential -->
+                  <span class="method-name">VMWareCloudCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidCredentialLogin">
+                  </a> <!-- ValidCredentialLogin -->
+                  <span class="method-name">ValidCredentialLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewCredential">
+                  </a> <!-- ViewCredential -->
+                  <span class="method-name">ViewCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewDetails">
+                  </a> <!-- ViewDetails -->
+                  <span class="method-name">ViewDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewGroupDetails">
+                  </a> <!-- ViewGroupDetails -->
+                  <span class="method-name">ViewGroupDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewProjectDetails">
+                  </a> <!-- ViewProjectDetails -->
+                  <span class="method-name">ViewProjectDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewUserDetails">
+                  </a> <!-- ViewUserDetails -->
+                  <span class="method-name">ViewUserDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1122314840\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testautomation.suite2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ManageSLAs')
+data.setCell(0, 2, 'testautomation.suite2')
+data.setCell(0, 3, 160203);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CancelRole')
+data.setCell(1, 2, 'testautomation.suite2')
+data.setCell(1, 3, 6591);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CancelManageGroups')
+data.setCell(2, 2, 'testautomation.suite2')
+data.setCell(2, 3, 6578);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CancelManageProjects')
+data.setCell(3, 2, 'testautomation.suite2')
+data.setCell(3, 3, 6094);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CancelManageUsers')
+data.setCell(4, 2, 'testautomation.suite2')
+data.setCell(4, 3, 5645);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'InvalidLogin')
+data.setCell(5, 2, 'testautomation.suite2')
+data.setCell(5, 3, 3901);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OpenstackCloudCredential')
+data.setCell(6, 2, 'testautomation.suite2')
+data.setCell(6, 3, 3720);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'EucalyptusCloudCredential')
+data.setCell(7, 2, 'testautomation.suite2')
+data.setCell(7, 3, 3358);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AzureCloudCredential')
+data.setCell(8, 2, 'testautomation.suite2')
+data.setCell(8, 3, 2891);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RackspaceCloudCredential')
+data.setCell(9, 2, 'testautomation.suite2')
+data.setCell(9, 3, 2458);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'EditDetails')
+data.setCell(10, 2, 'testautomation.suite2')
+data.setCell(10, 3, 2086);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VMWareCloudCredential')
+data.setCell(11, 2, 'testautomation.suite2')
+data.setCell(11, 3, 1892);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ManageMarketplace')
+data.setCell(12, 2, 'testautomation.suite2')
+data.setCell(12, 3, 1773);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'EditHomePage')
+data.setCell(13, 2, 'testautomation.suite2')
+data.setCell(13, 3, 1677);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ValidCredentialLogin')
+data.setCell(14, 2, 'testautomation.suite2')
+data.setCell(14, 3, 1645);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ManageCloudCredential')
+data.setCell(15, 2, 'testautomation.suite2')
+data.setCell(15, 3, 1268);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ManageSecurity')
+data.setCell(16, 2, 'testautomation.suite2')
+data.setCell(16, 3, 1192);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'AWSCloudCredential')
+data.setCell(17, 2, 'testautomation.suite2')
+data.setCell(17, 3, 1038);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'EditGroup')
+data.setCell(18, 2, 'testautomation.suite2')
+data.setCell(18, 3, 1019);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'EditUsers')
+data.setCell(19, 2, 'testautomation.suite2')
+data.setCell(19, 3, 956);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CancelPasswordChange')
+data.setCell(20, 2, 'testautomation.suite2')
+data.setCell(20, 3, 915);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'EditProject')
+data.setCell(21, 2, 'testautomation.suite2')
+data.setCell(21, 3, 898);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'IngestCloudServices')
+data.setCell(22, 2, 'testautomation.suite2')
+data.setCell(22, 3, 812);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ViewCredential')
+data.setCell(23, 2, 'testautomation.suite2')
+data.setCell(23, 3, 721);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Settings')
+data.setCell(24, 2, 'testautomation.suite2')
+data.setCell(24, 3, 661);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ViewDetails')
+data.setCell(25, 2, 'testautomation.suite2')
+data.setCell(25, 3, 486);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ChangeDefaultGroup')
+data.setCell(26, 2, 'testautomation.suite2')
+data.setCell(26, 3, 435);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ViewGroupDetails')
+data.setCell(27, 2, 'testautomation.suite2')
+data.setCell(27, 3, 405);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'EditandSaveCredential')
+data.setCell(28, 2, 'testautomation.suite2')
+data.setCell(28, 3, 380);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ViewProjectDetails')
+data.setCell(29, 2, 'testautomation.suite2')
+data.setCell(29, 3, 379);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ViewUserDetails')
+data.setCell(30, 2, 'testautomation.suite2')
+data.setCell(30, 3, 365);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'RefreshIngestCloudServices')
+data.setCell(31, 2, 'testautomation.suite2')
+data.setCell(31, 3, 280);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'RefreshCredential')
+data.setCell(32, 2, 'testautomation.suite2')
+data.setCell(32, 3, 276);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'RefreshRole')
+data.setCell(33, 2, 'testautomation.suite2')
+data.setCell(33, 3, 129);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'RefreshUsers')
+data.setCell(34, 2, 'testautomation.suite2')
+data.setCell(34, 3, 104);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'RefreshGroup')
+data.setCell(35, 2, 'testautomation.suite2')
+data.setCell(35, 3, 97);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'RefreshManageProjects')
+data.setCell(36, 2, 'testautomation.suite2')
+data.setCell(36, 3, 53);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testautomation.suite2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">StartUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">InvalidLogin</span>
+                <span class="method-start">8307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidCredentialLogin</span>
+                <span class="method-start">12212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelPasswordChange</span>
+                <span class="method-start">13859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ChangeDefaultGroup</span>
+                <span class="method-start">14775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Settings</span>
+                <span class="method-start">15211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditHomePage</span>
+                <span class="method-start">15875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ManageSecurity</span>
+                <span class="method-start">17554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelRole</span>
+                <span class="method-start">18748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshRole</span>
+                <span class="method-start">25341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewDetails</span>
+                <span class="method-start">25472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditDetails</span>
+                <span class="method-start">25959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelManageGroups</span>
+                <span class="method-start">28047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshGroup</span>
+                <span class="method-start">34628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewGroupDetails</span>
+                <span class="method-start">34726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditGroup</span>
+                <span class="method-start">35132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelManageUsers</span>
+                <span class="method-start">36152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshUsers</span>
+                <span class="method-start">41799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewUserDetails</span>
+                <span class="method-start">41905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditUsers</span>
+                <span class="method-start">42279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelManageProjects</span>
+                <span class="method-start">43236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshManageProjects</span>
+                <span class="method-start">49332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewProjectDetails</span>
+                <span class="method-start">49386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditProject</span>
+                <span class="method-start">49767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ManageCloudCredential</span>
+                <span class="method-start">50667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AWSCloudCredential</span>
+                <span class="method-start">51937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AzureCloudCredential</span>
+                <span class="method-start">52976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EucalyptusCloudCredential</span>
+                <span class="method-start">55869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OpenstackCloudCredential</span>
+                <span class="method-start">59229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RackspaceCloudCredential</span>
+                <span class="method-start">62951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VMWareCloudCredential</span>
+                <span class="method-start">65411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshCredential</span>
+                <span class="method-start">67304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewCredential</span>
+                <span class="method-start">67582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditandSaveCredential</span>
+                <span class="method-start">68305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IngestCloudServices</span>
+                <span class="method-start">68686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RefreshIngestCloudServices</span>
+                <span class="method-start">69499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ManageMarketplace</span>
+                <span class="method-start">69780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ManageSLAs</span>
+                <span class="method-start">71554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231822 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="37" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="223470" started-at="2014-05-06T09:30:51Z" finished-at="2014-05-06T09:34:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="223470" started-at="2014-05-06T09:30:51Z" finished-at="2014-05-06T09:34:34Z">
+      <class name="testautomation.suite2">
+        <test-method status="PASS" signature="StartUp()[pri:0, instance:testautomation.suite2@2696be00]" name="StartUp" is-config="true" duration-ms="8297" started-at="2014-05-06T15:00:43Z" finished-at="2014-05-06T15:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:testautomation.suite2@2696be00]" name="InvalidLogin" duration-ms="3901" started-at="2014-05-06T15:00:51Z" finished-at="2014-05-06T15:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="ValidCredentialLogin()[pri:0, instance:testautomation.suite2@2696be00]" name="ValidCredentialLogin" duration-ms="1645" started-at="2014-05-06T15:00:55Z" finished-at="2014-05-06T15:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCredentialLogin -->
+        <test-method status="PASS" signature="CancelPasswordChange()[pri:0, instance:testautomation.suite2@2696be00]" name="CancelPasswordChange" duration-ms="915" started-at="2014-05-06T15:00:56Z" finished-at="2014-05-06T15:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelPasswordChange -->
+        <test-method status="PASS" signature="ChangeDefaultGroup()[pri:0, instance:testautomation.suite2@2696be00]" name="ChangeDefaultGroup" duration-ms="435" started-at="2014-05-06T15:00:57Z" finished-at="2014-05-06T15:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeDefaultGroup -->
+        <test-method status="PASS" signature="Settings()[pri:0, instance:testautomation.suite2@2696be00]" name="Settings" duration-ms="661" started-at="2014-05-06T15:00:58Z" finished-at="2014-05-06T15:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings -->
+        <test-method status="PASS" signature="EditHomePage()[pri:0, instance:testautomation.suite2@2696be00]" name="EditHomePage" duration-ms="1677" started-at="2014-05-06T15:00:58Z" finished-at="2014-05-06T15:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditHomePage -->
+        <test-method status="PASS" signature="ManageSecurity()[pri:0, instance:testautomation.suite2@2696be00]" name="ManageSecurity" duration-ms="1192" started-at="2014-05-06T15:01:00Z" finished-at="2014-05-06T15:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageSecurity -->
+        <test-method status="PASS" signature="CancelRole()[pri:0, instance:testautomation.suite2@2696be00]" name="CancelRole" duration-ms="6591" started-at="2014-05-06T15:01:01Z" finished-at="2014-05-06T15:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelRole -->
+        <test-method status="PASS" signature="RefreshRole()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshRole" duration-ms="129" started-at="2014-05-06T15:01:08Z" finished-at="2014-05-06T15:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshRole -->
+        <test-method status="PASS" signature="ViewDetails()[pri:0, instance:testautomation.suite2@2696be00]" name="ViewDetails" duration-ms="486" started-at="2014-05-06T15:01:08Z" finished-at="2014-05-06T15:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewDetails -->
+        <test-method status="PASS" signature="EditDetails()[pri:0, instance:testautomation.suite2@2696be00]" name="EditDetails" duration-ms="2086" started-at="2014-05-06T15:01:08Z" finished-at="2014-05-06T15:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditDetails -->
+        <test-method status="PASS" signature="CancelManageGroups()[pri:0, instance:testautomation.suite2@2696be00]" name="CancelManageGroups" duration-ms="6578" started-at="2014-05-06T15:01:11Z" finished-at="2014-05-06T15:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelManageGroups -->
+        <test-method status="PASS" signature="RefreshGroup()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshGroup" duration-ms="97" started-at="2014-05-06T15:01:17Z" finished-at="2014-05-06T15:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshGroup -->
+        <test-method status="PASS" signature="ViewGroupDetails()[pri:0, instance:testautomation.suite2@2696be00]" name="ViewGroupDetails" duration-ms="405" started-at="2014-05-06T15:01:17Z" finished-at="2014-05-06T15:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewGroupDetails -->
+        <test-method status="PASS" signature="EditGroup()[pri:0, instance:testautomation.suite2@2696be00]" name="EditGroup" duration-ms="1019" started-at="2014-05-06T15:01:18Z" finished-at="2014-05-06T15:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditGroup -->
+        <test-method status="PASS" signature="CancelManageUsers()[pri:0, instance:testautomation.suite2@2696be00]" name="CancelManageUsers" duration-ms="5645" started-at="2014-05-06T15:01:19Z" finished-at="2014-05-06T15:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelManageUsers -->
+        <test-method status="PASS" signature="RefreshUsers()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshUsers" duration-ms="104" started-at="2014-05-06T15:01:24Z" finished-at="2014-05-06T15:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshUsers -->
+        <test-method status="PASS" signature="ViewUserDetails()[pri:0, instance:testautomation.suite2@2696be00]" name="ViewUserDetails" duration-ms="365" started-at="2014-05-06T15:01:24Z" finished-at="2014-05-06T15:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewUserDetails -->
+        <test-method status="PASS" signature="EditUsers()[pri:0, instance:testautomation.suite2@2696be00]" name="EditUsers" duration-ms="956" started-at="2014-05-06T15:01:25Z" finished-at="2014-05-06T15:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditUsers -->
+        <test-method status="PASS" signature="CancelManageProjects()[pri:0, instance:testautomation.suite2@2696be00]" name="CancelManageProjects" duration-ms="6094" started-at="2014-05-06T15:01:26Z" finished-at="2014-05-06T15:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelManageProjects -->
+        <test-method status="PASS" signature="RefreshManageProjects()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshManageProjects" duration-ms="53" started-at="2014-05-06T15:01:32Z" finished-at="2014-05-06T15:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshManageProjects -->
+        <test-method status="PASS" signature="ViewProjectDetails()[pri:0, instance:testautomation.suite2@2696be00]" name="ViewProjectDetails" duration-ms="379" started-at="2014-05-06T15:01:32Z" finished-at="2014-05-06T15:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewProjectDetails -->
+        <test-method status="PASS" signature="EditProject()[pri:0, instance:testautomation.suite2@2696be00]" name="EditProject" duration-ms="898" started-at="2014-05-06T15:01:32Z" finished-at="2014-05-06T15:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProject -->
+        <test-method status="PASS" signature="ManageCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="ManageCloudCredential" duration-ms="1268" started-at="2014-05-06T15:01:33Z" finished-at="2014-05-06T15:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageCloudCredential -->
+        <test-method status="PASS" signature="AWSCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="AWSCloudCredential" duration-ms="1038" started-at="2014-05-06T15:01:34Z" finished-at="2014-05-06T15:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AWSCloudCredential -->
+        <test-method status="PASS" signature="AzureCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="AzureCloudCredential" duration-ms="2891" started-at="2014-05-06T15:01:36Z" finished-at="2014-05-06T15:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AzureCloudCredential -->
+        <test-method status="PASS" signature="EucalyptusCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="EucalyptusCloudCredential" duration-ms="3358" started-at="2014-05-06T15:01:38Z" finished-at="2014-05-06T15:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EucalyptusCloudCredential -->
+        <test-method status="PASS" signature="OpenstackCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="OpenstackCloudCredential" duration-ms="3720" started-at="2014-05-06T15:01:42Z" finished-at="2014-05-06T15:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenstackCloudCredential -->
+        <test-method status="PASS" signature="RackspaceCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="RackspaceCloudCredential" duration-ms="2458" started-at="2014-05-06T15:01:45Z" finished-at="2014-05-06T15:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RackspaceCloudCredential -->
+        <test-method status="PASS" signature="VMWareCloudCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="VMWareCloudCredential" duration-ms="1892" started-at="2014-05-06T15:01:48Z" finished-at="2014-05-06T15:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VMWareCloudCredential -->
+        <test-method status="PASS" signature="RefreshCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshCredential" duration-ms="276" started-at="2014-05-06T15:01:50Z" finished-at="2014-05-06T15:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshCredential -->
+        <test-method status="PASS" signature="ViewCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="ViewCredential" duration-ms="721" started-at="2014-05-06T15:01:50Z" finished-at="2014-05-06T15:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCredential -->
+        <test-method status="PASS" signature="EditandSaveCredential()[pri:0, instance:testautomation.suite2@2696be00]" name="EditandSaveCredential" duration-ms="380" started-at="2014-05-06T15:01:51Z" finished-at="2014-05-06T15:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditandSaveCredential -->
+        <test-method status="PASS" signature="IngestCloudServices()[pri:0, instance:testautomation.suite2@2696be00]" name="IngestCloudServices" duration-ms="812" started-at="2014-05-06T15:01:51Z" finished-at="2014-05-06T15:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IngestCloudServices -->
+        <test-method status="PASS" signature="RefreshIngestCloudServices()[pri:0, instance:testautomation.suite2@2696be00]" name="RefreshIngestCloudServices" duration-ms="280" started-at="2014-05-06T15:01:52Z" finished-at="2014-05-06T15:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshIngestCloudServices -->
+        <test-method status="PASS" signature="ManageMarketplace()[pri:0, instance:testautomation.suite2@2696be00]" name="ManageMarketplace" duration-ms="1773" started-at="2014-05-06T15:01:52Z" finished-at="2014-05-06T15:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageMarketplace -->
+        <test-method status="FAIL" signature="ManageSLAs()[pri:0, instance:testautomation.suite2@2696be00]" name="ManageSLAs" duration-ms="160203" started-at="2014-05-06T15:01:54Z" finished-at="2014-05-06T15:04:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='confirm-modal']/div[1]"}
+Command duration or timeout: 160.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'THIMWS022', ip: '192.168.10.29', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 6e9565bb-528a-442f-85df-fb400919c53b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='confirm-modal']/div[1]"}
+Command duration or timeout: 160.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'THIMWS022', ip: '192.168.10.29', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 6e9565bb-528a-442f-85df-fb400919c53b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at testautomation.suite2.ManageSLAs(suite2.java:1226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='confirm-modal']/div[1]"}
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:12:12'
+System info: host: 'THIMWS022', ip: '192.168.10.29', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8775648292275286364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8775648292275286364webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageSLAs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.suite2@2696be00]" name="tearDown" is-config="true" duration-ms="166" started-at="2014-05-06T15:04:34Z" finished-at="2014-05-06T15:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.suite2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
